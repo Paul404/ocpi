@@ -192,7 +192,7 @@ PATCH To URL: https://www.server.com/ocpi/cpo/2.0/sessions/NL/TNM/101
 {
 	"id": "101",
 	"start_datetime": "2015-06-29T22:39:09+02:00",
-	"kwh": "0.00",
+	"kwh": 0.00,
 	"auth_id": "FA54320",
 	"location": {
 		"id": "LOC1",
@@ -222,7 +222,7 @@ PATCH To URL: https://www.server.com/ocpi/cpo/2.0/sessions/NL/TNM/101
 		}
 	},
 	"currency": "EUR",
-	"total_cost": "2.50",
+	"total_cost": 2.50,
 	"status": "PENDING"
 }
 ```
@@ -234,7 +234,7 @@ PATCH To URL: https://www.server.com/ocpi/cpo/2.0/sessions/NL/TNM/101
 	"id": "101",
 	"start_datetime": "2015-06-29T22:39:09+02:00",
 	"end_datetime": "2015-06-29T23:50:16+02:00",
-	"kwh": "0.00",
+	"kwh": 0.00,
 	"auth_id": "FA54320",
 	"location": {
 		"id": "LOC1",
@@ -289,7 +289,7 @@ PATCH To URL: https://www.server.com/ocpi/cpo/2.0/sessions/NL/TNM/101
 			"volume": 0.718
 		}]
 	}],
-	"total_cost": "8.50",
+	"total_cost": 8.50,
 	"status": "COMPLETED"
 }
 ```
